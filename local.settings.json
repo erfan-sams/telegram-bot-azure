@@ -1,0 +1,17 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "PYTHON_ENABLE_WORKER_EXTENSIONS": "1", 
+      "APPLICATIONINSIGHTS_CONNECTION_STRING": "", 
+  
+      "KEY_VAULT_URI": "https://barbara-kv-cli2.vault.azure.net/", 
+  
+      "TELEGRAM_BOT_TOKEN": "", 
+      "OPENROUTER_API_KEY": "",
+      "COSMOS_DB_URI": "",
+      "COSMOS_DB_KEY": "",
+      "OPENROUTER_BASE_URL": "https://openrouter.ai/api/v1"
+    }
+  }

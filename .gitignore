@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets - DO NOT COMMIT THESE
+.env
+*.env
+*local.settings.json # For Azure Functions local development
+*temp_secrets.txt # The temporary file you made earlier
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+TelegramWebhookHandler/microsoft.gpg
