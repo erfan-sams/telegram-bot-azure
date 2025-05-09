@@ -242,12 +242,11 @@ az functionapp config appsettings set
           "Values": {
             "AzureWebJobsStorage": "UseDevelopmentStorage=true",
             "FUNCTIONS_WORKER_RUNTIME": "python",
-            "KEY_VAULT_URI": "https://mytelegrambot-kv.vault.azure.net/"
-            // For local testing without Key Vault resolution, or if DefaultAzureCredential fails:
-            // "TELEGRAM_BOT_TOKEN": "YOUR_LOCAL_TOKEN",
-            // "OPENROUTER_API_KEY": "YOUR_LOCAL_KEY",
-            // "COSMOS_DB_URI": "YOUR_LOCAL_COSMOS_URI",
-            // "COSMOS_DB_KEY": "YOUR_LOCAL_COSMOS_KEY"
+            "KEY_VAULT_URI": "https://mytelegrambot-kv.vault.azure.net/",
+            "TELEGRAM_BOT_TOKEN": "YOUR_LOCAL_TOKEN",
+            "OPENROUTER_API_KEY": "YOUR_LOCAL_KEY",
+            "COSMOS_DB_URI": "YOUR_LOCAL_COSMOS_URI",
+            "COSMOS_DB_KEY": "YOUR_LOCAL_COSMOS_KEY"
           }
         }
         ```
