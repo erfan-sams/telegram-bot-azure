@@ -91,7 +91,7 @@ logger.info("Python Azure Function (TelegramWebhookHandler) global worker initia
 # END OF GLOBAL INITIALIZATION BLOCK
 # =============================================================================
 
-SYSTEM_MESSAGE_CONTENT = ""
+SYSTEM_MESSAGE_CONTENT = "System prompt for the bot: A helpful AI assistant." # Personlize the system prompt based on your needs
 SYSTEM_MESSAGE = {"role": "system", "content": SYSTEM_MESSAGE_CONTENT}
 MAX_CONVERSATION_MESSAGES = 20
 MAX_USER_MESSAGE_LENGTH = 2000
